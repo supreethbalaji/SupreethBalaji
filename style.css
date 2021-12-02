@@ -192,6 +192,11 @@ section .title::after{
     margin: 5px 0;
     margin-left: -3px;
 }
+.home .home-content .text-4{
+    font-size: 30px;
+    margin: 5px 0;
+    margin-left: -3px;
+}
 .home .home-content .text-3 span{
     color: rgb(98, 37, 153);
     font-weight: 500;
