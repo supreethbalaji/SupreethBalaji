@@ -263,6 +263,54 @@ section .title::after{
     background: none;
 }
 
+
+
+/* about section styling */
+.agenda .title::after{
+    content: "My goals";
+}
+.agenda .agneda-content .left{
+    width: 40%;
+}
+.agenda .agenda-content .right img{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.agenda .agenda-content .right{
+    width: 60%;
+}
+.agenda .agenda-content .left .text{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.agenda .agenda-content .left .text span{
+    color: rgb(98, 37, 153);
+}
+.agenda .genda-content .left p{
+    text-align: justify;
+}
+.agenda .agenda-content .left a{
+    display: inline-block;
+    background: rgb(98, 37, 153);
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid rgb(98, 37, 153);
+    transition: all 0.3s ease;
+}
+.agenda .agenda-content .left a:hover{
+    color: rgb(98, 37, 153);
+    background: none;
+}
+
+
+
 /* teams section styling */
 .teams .title::after{
     content: "Our Delegation";
